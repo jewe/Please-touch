@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<!-- 
+
+shapes:
+circle, square, disksquare, triangle, star
+octagon, ellipse, cross, hourglass, disk
+hexagon, sphere
+
+colors:
+RGB in HEX format
+white=FFFFFF, black=000000, red=FF0000, etc.
+
+-->
+
+<tuio>
+
+<!-- 
+the definition of the various object classes 
+you can define the shape, color and name of each object
+-->
+
+<class name="blue cube" shape="square" color="174EAA" description="blue cube"/>
+<class name="red cube" shape="square" color="DC1F2C" description="red cube"/>
+<class name="green cube" shape="square" color="0EA44A" description="green cube"/>
+<class name="yellow cube" shape="square" color="E4D81F" description="yellow cube"/>
+
+<class name="blue disk" shape="circle" color="174EAA" description="blue disk"/>
+<class name="red disk" shape="circle" color="DC1F2C" description="red disk"/>
+<class name="green disk" shape="circle" color="0EA44A" description="green disk"/>
+<class name="yellow disk" shape="circle" color="E4D81F" description="yellow disk"/>
+
+<class name="blue disk" shape="disksquare" color="174EAA" description="blue disk"/>
+<class name="red disk" shape="disksquare" color="DC1F2C" description="red disk"/>
+<class name="green disk" shape="disksquare" color="0EA44A" description="green disk"/>
+<class name="yellow disk" shape="disksquare" color="E4D81F" description="yellow disk"/>
+
+<class name="blue disk" shape="disk" color="174EAA" description="blue disk"/>
+<class name="red disk" shape="disk" color="DC1F2C" description="red disk"/>
+<class name="green disk" shape="disk" color="0EA44A" description="green disk"/>
+<class name="yellow disk" shape="disk" color="E4D81F" description="yellow disk"/>
+
+<class name="blue dome" shape="sphere" color="174EAA" description="blue dome"/>
+<class name="red dome" shape="sphere" color="DC1F2C" description="red dome"/>
+<class name="green dome" shape="sphere" color="E4D81F" description="green dome"/>
+<class name="yellow dome" shape="sphere" color="E4D81F" description="yellow dome"/>
+
+<class name="blue cross" shape="cross" color="174EAA" description="blue cross"/>
+<class name="red cross" shape="cross" color="DC1F2C" description="red cross"/>
+<class name="green cross" shape="cross" color="0EA44A" description="green cross"/>
+<class name="yellow cross" shape="cross" color="E4D81F" description="yellow cross"/>
+
+<!-- 
+the definition of the actual object instances 
+you can define the type, IDs and position  each object
+-->
+
+
+<!-- 
+first we create four cubes, with six sides and define the according fiducial IDs
+-->
+
+<object class="blue disk" fiducials="1" active="false" xpos="100" ypos="30" angle="180"/>
+<object class="red disk" fiducials="2" active="false" xpos="150" ypos="30" angle="180"/>
+<object class="yellow disk" fiducials="3" active="false" xpos="200" ypos="30" angle="180"/>
+<object class="green disk" fiducials="4" active="false" xpos="250" ypos="30" angle="180"/>
+<object class="green disk" fiducials="5" active="false" xpos="300" ypos="30" angle="180"/>
+<object class="green disk" fiducials="6" active="false" xpos="350" ypos="30" angle="180"/>
+<object class="green disk" fiducials="7" active="false" xpos="400" ypos="30" angle="180"/>
+<object class="green disk" fiducials="8" active="false" xpos="450" ypos="30" angle="180"/>
+<object class="green disk" fiducials="9" active="false" xpos="500" ypos="30" angle="180"/>
+<object class="green disk" fiducials="10" active="false" xpos="550" ypos="30" angle="180"/>
+<object class="green disk" fiducials="11" active="false" xpos="600" ypos="30" angle="180"/>
+<object class="green disk" fiducials="12" active="false" xpos="650" ypos="30" angle="180"/>
+<object class="green disk" fiducials="13" active="false" xpos="700" ypos="30" angle="180"/>
+
+<object class="blue disk" fiducials="14" active="false" xpos="100" ypos="570" angle="180"/>
+<object class="red disk" fiducials="15" active="false" xpos="150" ypos="570" angle="180"/>
+<object class="yellow disk" fiducials="16" active="false" xpos="200" ypos="570" angle="180"/>
+<object class="green disk" fiducials="17" active="false" xpos="250" ypos="570" angle="180"/>
+<object class="blue disk" fiducials="18" active="false" xpos="300" ypos="570" angle="180"/>
+<object class="red disk" fiducials="19" active="false" xpos="350" ypos="570" angle="180"/>
+<object class="yellow disk" fiducials="20" active="false" xpos="400" ypos="570" angle="180"/>
+<object class="green disk" fiducials="21" active="false" xpos="450" ypos="570" angle="180"/>
+<object class="blue disk" fiducials="22" active="false" xpos="500" ypos="570" angle="180"/>
+<object class="red disk" fiducials="23" active="false" xpos="550" ypos="570" angle="180"/>
+<object class="yellow disk" fiducials="24" active="false" xpos="600" ypos="570" angle="180"/>
+<object class="green disk" fiducials="25" active="false" xpos="650" ypos="570" angle="180"/>
+
+</tuio>
